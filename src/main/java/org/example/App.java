@@ -1,17 +1,18 @@
 package org.example;
 
+import static org.example.Homework02.Tasks123.*;
 import static org.example.Homework03.*;
 
 public class App
 {
     public static void main( String[] args ) {
-
+/**
         System.out.println("HW06-Решение задачи №1 - "); Homework06.Task1();
         System.out.println("HW06-Решение задачи №2 - "); Homework06.Task2();
         System.out.println("HW06-Решение задачи №3 - "); Homework06.Task3();
         System.out.println("HW06-Решение задачи №4 - "); Homework06.Task4();
         System.out.println("HW06-Решение задачи №5 - "); Homework06.Task5();
-/**
+
         System.out.println("HW05-Решение задачи №1 - "); Homework05.Task1();
         System.out.println("HW05-Решение задачи №2 - "); Homework05.Task2();
         System.out.println("HW05-Решение задачи №4 - "); Homework05.Task4();
@@ -33,5 +34,9 @@ public class App
         System.out.print("HW03-Решение задачи №6 - "); Triangle(5.5,4,3);
         System.out.print("HW03-Решение задачи №7 - "); Trafficlight(2.5);
 */
+        System.out.print("HW02-Решение задачи №1 - " + result);
+        System.out.print("HW02-Решение задачи №2 - " + square);
+        System.out.print("HW02-Решение задачи №3 - " + resultDifference + " банана");
+
     }
 }
