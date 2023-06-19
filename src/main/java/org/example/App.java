@@ -6,6 +6,12 @@ import static org.example.Homework03.*;
 public class App
 {
     public static void main( String[] args ) {
+
+        System.out.println("HW07-Решение задачи №1 - " + Homework07.Task1(9,3));
+        System.out.println("HW07-Решение задачи №2 - " + Homework07.Task2(4));
+        System.out.println("HW07-Решение задачи №3 - " + Homework07.Task3(7,3));
+        System.out.println("HW07-Решение задачи №4 - " + Homework07.Task4(3,4));
+        
 /**
         System.out.println("HW06-Решение задачи №1 - "); Homework06.Task1();
         System.out.println("HW06-Решение задачи №2 - "); Homework06.Task2();
@@ -33,10 +39,10 @@ public class App
         System.out.print("HW03-Решение задачи №5 - "); LeapYear(1600);
         System.out.print("HW03-Решение задачи №6 - "); Triangle(5.5,4,3);
         System.out.print("HW03-Решение задачи №7 - "); Trafficlight(2.5);
-*/
+
         System.out.print("HW02-Решение задачи №1 - " + result);
         System.out.print("HW02-Решение задачи №2 - " + square);
         System.out.print("HW02-Решение задачи №3 - " + resultDifference + " банана");
-
+*/
     }
 }
