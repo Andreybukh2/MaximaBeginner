@@ -1,18 +1,28 @@
 package org.example;
 
+import java.io.IOException;
+import java.util.Scanner;
+
 import static org.example.Homework02.Tasks123.*;
 import static org.example.Homework03.*;
-
+import static org.example.Homework12.*;
 public class App
 {
-    public static void main( String[] args ) {
+    public static final Scanner scanner = new Scanner(System.in);
+    public static void main( String[] args ) throws IOException {
 
+        //Homework12.Task1();
+        //Homework12.Task2();
+        //Homework12.Task3();
+        //Homework12.Task5();
+        //Homework12.Task6();
+        //Homework12.Task7();
+/**
         System.out.println("HW07-Решение задачи №1 - " + Homework07.Task1(9,3));
         System.out.println("HW07-Решение задачи №2 - " + Homework07.Task2(4));
         System.out.println("HW07-Решение задачи №3 - " + Homework07.Task3(7,3));
         System.out.println("HW07-Решение задачи №4 - " + Homework07.Task4(3,4));
-        
-/**
+
         System.out.println("HW06-Решение задачи №1 - "); Homework06.Task1();
         System.out.println("HW06-Решение задачи №2 - "); Homework06.Task2();
         System.out.println("HW06-Решение задачи №3 - "); Homework06.Task3();
