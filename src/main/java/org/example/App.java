@@ -10,7 +10,6 @@ public class App
 {
     public static final Scanner scanner = new Scanner(System.in);
     public static void main( String[] args ) throws IOException {
-
         //Homework12.Task1();
         //Homework12.Task2();
         //Homework12.Task3();
